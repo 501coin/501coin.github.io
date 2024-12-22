@@ -7,70 +7,92 @@
     <title>501 Coin - Solana Token</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #111;
+            color: #f4f4f4;
         }
 
         header {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #222;
+            color: #fff;
             padding: 1rem 0;
             text-align: center;
+            border-bottom: 2px solid #4CAF50;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
         }
 
         nav {
-            text-align: center;
-            margin: 1rem 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 0.5rem 0;
         }
 
         nav a {
             text-decoration: none;
-            color: #4CAF50;
+            color: #f4f4f4;
             margin: 0 15px;
             font-weight: bold;
+            transition: color 0.3s;
         }
 
         nav a:hover {
-            text-decoration: underline;
+            color: #4CAF50;
         }
 
         main {
             padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
             text-align: center;
+        }
+
+        main h2 {
+            color: #4CAF50;
         }
 
         footer {
             text-align: center;
-            background-color: #333;
-            color: white;
+            background-color: #222;
+            color: #fff;
             padding: 1rem 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            border-top: 2px solid #4CAF50;
+            position: relative;
         }
 
         .btn {
             display: inline-block;
             margin: 1rem 0;
             padding: 10px 20px;
-            color: white;
+            color: #fff;
             background-color: #4CAF50;
             text-decoration: none;
             border-radius: 5px;
+            transition: background-color 0.3s;
         }
 
         .btn:hover {
             background-color: #45a049;
         }
+
+        section {
+            margin: 2rem 0;
+        }
+
+        .highlight {
+            color: #4CAF50;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>501 Coin - Solana Token</h1>
-        <p>501 Coin - Solana Token</p>
+        <h1><span class="highlight">501 Coin</span> - Solana Token</h1>
     </header>
 
     <nav>
@@ -81,24 +103,24 @@
 
     <main>
         <section id="about">
-            <h2>501 Coin - Solana Token</h2>
-            <p>501 Coin - Solana Token</p>
+            <h2>About</h2>
+            <p>The <span class="highlight">501 Coin</span> is built on the Solana blockchain to empower developers and enthusiasts. Explore the possibilities!</p>
         </section>
 
         <section id="portfolio">
             <h2>Portfolio</h2>
-            <p>Showcase your work or projects here. Add links or images if needed.</p>
+            <p>Discover projects and innovations powered by <span class="highlight">501 Coin</span>.</p>
         </section>
 
         <section id="contact">
-            <h2>Contact Me</h2>
-            <p>How can people reach you? Add an email or social media links.</p>
-            <a href="mailto:501coin@proton.me" class="btn">Email Me</a>
+            <h2>Contact</h2>
+            <p>We'd love to hear from you! Reach out for collaborations or inquiries.</p>
+            <a href="mailto:501coin@proton.me" class="btn">Email Us</a>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 501 Coin. All rights reserved.</p>
     </footer>
 </body>
 </html>
